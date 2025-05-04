@@ -1,0 +1,61 @@
+:root {
+    /* SPACING */
+    --static-space-0: 0px;
+    --static-space-1: 1px;
+    --static-space-2: 2px;
+    --static-space-4: 4px;
+    --static-space-8: 8px;
+    --static-space-12: 12px;
+    --static-space-16: 16px;
+    --static-space-20: 20px;
+    --static-space-24: 24px;
+    --static-space-32: 32px;
+    --static-space-40: 40px;
+    --static-space-48: 48px;
+    --static-space-56: 56px;
+    --static-space-64: 64px;
+    --static-space-80: 80px;
+    --static-space-104: 104px;
+    --static-space-128: 128px;
+    --static-space-160: 160px;
+
+    /* TRANSITIONS */
+    --transition-micro-short: 0.1s;
+    --transition-micro-medium: 0.2s;
+    --transition-micro-long: 0.3s;
+    --transition-macro-short: 0.4s;
+    --transition-macro-medium: 0.6s;
+    --transition-macro-long: 0.8s;
+
+    /* CURSORS */
+    --cursor-interactive: pointer;
+    --cursor-not-allowed: not-allowed;
+
+    /* BORDERS */
+    --solid-border-width: 1px;
+    --solid-border-color-brand: var(--scheme-brand-500);
+    --solid-border-color-neutral: var(--scheme-neutral-500);
+    --solid-border-color-danger: var(--scheme-danger-500);
+
+    /* INSETS */
+    --solid-inset-distance: 0px;
+    --solid-inset-size: 0px;
+    --solid-inset-color-brand: var(--scheme-brand-500);
+    --solid-inset-color-neutral: var(--scheme-neutral-500);
+    --solid-inset-color-danger: var(--scheme-danger-500);
+
+    /* RADIUS */
+    --radius-xs: 2px;
+    --radius-s: 4px;
+    --radius-m: 8px;
+    --radius-l: 16px;
+    --radius-xl: 32px;
+    --radius-full: 9999px;
+
+    /* SHADOWS */
+    --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-s: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-m: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-l: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+} 
